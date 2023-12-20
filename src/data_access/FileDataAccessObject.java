@@ -4,7 +4,7 @@ import entity.CommonBotMatchData;
 import use_case.load_bot.LoadBotDataAccessInterface;
 
 public class FileDataAccessObject implements LoadBotDataAccessInterface {
-    private final CommonBotMatchData botMatchData;
+    // private final CommonBotMatchData botMatchData;
 
     @Override
     public Boolean loadBot(int botID) {
