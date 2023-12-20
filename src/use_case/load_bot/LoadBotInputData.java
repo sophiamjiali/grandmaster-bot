@@ -9,7 +9,7 @@ public class LoadBotInputData {
     }
 
     // retrieve the bots name
-    int getName() {
+    int getBotID() {
         return this.botID;
     }
 }
